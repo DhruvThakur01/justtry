@@ -1,0 +1,4 @@
+FROM ubuntu
+Copy pping /home/t-hlnu/pping
+CMD ["./pping", "-i", "eth0", "-I", "tc", "-F", "json"]
+
